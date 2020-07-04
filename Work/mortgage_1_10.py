@@ -17,7 +17,7 @@ while principal > 0:
         principal = principal * (1+rate/12) - payment
         total_paid = total_paid + payment
     counter = counter + 1
-        
+    print(counter, " ", total_paid, " ", principal)       
 print('Total paid', total_paid)
 
 #Total paid 929965.6199999959 - first result
